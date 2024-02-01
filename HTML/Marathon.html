@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Exercise</title>
+</head>
+<body>
+    <h1>Race Regsitration</h1>
+    <form action="/tacos">
+        <label for="uname">Username</label>
+        <input type="text" name = 'username' placeholder="Username" id="uname" required>
+        <br>
+        <label for="pwd">Password</label>
+        <input type="password" name = 'pwd' placeholder="password" id="pwd" required minlength="5" maxlength="15">
+
+        <br>
+        <h3>Select the marathon type</h3>
+        <input type="radio" name = "type" id = "t1" value = 'small'>
+        <label for="t1">Small Marathon</label>
+        <br>
+        <input type="radio" name = "type" id = 't2' value = 'medium'>
+        <label for="t2">Medium Marathon</label>
+        <br>
+        <input type="radio" name = "type" id = 't3' value = 'large'>
+        <label for="t3">Large Marathon</label>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+
+
+        <label for="age">Please enter the age</label>
+        <select name="age" id="age">
+            <option value="young">Under 18</option>
+            <option value="correct" selected>18 - 60</option>
+            <option value="old">60+</option>
+        </select>
+
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>

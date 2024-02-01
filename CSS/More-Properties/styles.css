@@ -1,0 +1,22 @@
+section{
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+}
+
+#rgba{
+    width: 50%;
+    height: 40%;
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+#opacity{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(200, 200, 200);
+    opacity: 0.3;
+}
+
+button{
+    opacity: 0.2
+}
